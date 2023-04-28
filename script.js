@@ -22,9 +22,10 @@ form.addEventListener('submit', (e) => {
 
     if (send == true) {
         form.submit();
+        alert('formulário enviado com sucesso!')
     }
 
-    alert('formulário enviado com sucesso!')
+    
 });
 
 function nomeValidator() {
